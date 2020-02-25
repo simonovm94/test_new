@@ -1,0 +1,159 @@
+body, p {
+    margin: 0;
+}
+
+.content_title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: #fff;
+}
+
+p {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    color: #fff;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 30px 0;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu .menu_item {
+    margin: 0 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.menu_item:hover {
+    color: #f1ae13;
+}
+
+.logo {
+    margin-right: auto;
+    transition: .5s;
+}
+
+.logo a:hover {
+    color: #f1ae13;
+}
+
+.main {
+    background: url(../img/bg.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.main:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 5;
+    padding: 300px 15px 0px 15px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.content_text {
+    color: #f1ae13;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.content_title {
+    font-size: 52px;
+    text-align: center;
+}
+
+.content_subtitle {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.btn {
+    background: none;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    margin: 30px auto 0px;
+    display: block;
+    border: 1px solid #f1ae13;
+    border-radius: 40px;
+    padding: 14px 80px;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    outline: none;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #f1ae13;
+    color: #333333
+}
+
+.advantages {
+    display: flex;
+    margin-top: 60px;
+}
+
+.leadership, .communication, .team {
+    border: 1px solid #f1ae13;
+    padding: 20px;
+    width: 33.333%;
+    margin: 30px;
+}
+
+.leadership_title, .communication_title, .team_title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.leadership_subtitle, .communication_subtitle, .team_subtitle {
+    line-height: 1.5;
+}
