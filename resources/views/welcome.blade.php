@@ -1,4 +1,32 @@
-
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Лучшие интерьеры мира</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="logo">
+        <a href="#" class="logo_text">ModHouse</a>
+    </div>
+    <div class="menu">
+        <li class="menu_item">Главная</li>
+        <li class="menu_item">Схема работы</li>
+        <li class="menu_item">Портфолио</li>
+        <li class="menu_item">Отзывы</li>
+        <li class="menu_item">Контакты</li>
+    </div>
+    <div class="search">
+        <a href="#">
+            <img src="" alt="">
+        </a>
+    </div>
+</header>
 <section class="main">
     <div class="content">
         <p class="content_text">Компания современного дизайна</p>
